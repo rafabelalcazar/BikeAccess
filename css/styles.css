@@ -1,0 +1,12 @@
+body{
+    background: linear-gradient(rgb(51, 83, 185),rgb(26, 156, 156));
+    height: 100vh;
+    width: 100%;
+}
+
+.carde{
+    background: rgb(26, 156, 156)
+}
+.white{
+    color: white;
+}
