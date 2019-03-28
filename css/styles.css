@@ -10,3 +10,12 @@ body{
 .white{
     color: white;
 }
+
+.gray{
+    color: rgb(220, 221, 248);
+}
+
+label{
+    color: rgb(43, 62, 78);
+}
+
