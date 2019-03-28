@@ -9,8 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 
 <body>
@@ -20,38 +19,42 @@
             <div class="col">
                 <div class="header white mt-5">
                     <h1> <b>BikeAccess</b> </h1>
-                    <h3 class="m-1">Bienvenido a UNICAUCA</h3>
+                    <h3 class="m-1">UNICAUCA</h3>
                     <p class="gray">Este es el sistema de control de acceso para ciclistas</p>
+                    <p class="gray h4">Completa este corto formulario para tu registro</p>
                 </div>
             </div>
-
         </div>
         <div class="row">
             <div class="col">
                 <form class="bg-white rounded p-5 mt-3" action="">
                     <div class="form-group row rounded ">
-                        <label for="example-text-input" class="col-2 col-form-label d-none d-sm-block">ID</label>
+                        <label for="example-text-input" class="col-2 col-form-label d-none d-sm-block">Nombre</label>
                         <div class="col-sm-10 col-12">
-                            <input class="form-control" type="text" placeholder="Ingrese su ID" id="example-text-input">
+                            <input class="form-control" type="text" placeholder="Escriba su nombre completo"
+                                id="example-text-input">
+                        </div>
+                    </div>
+
+
+                    <div class="form-group row">
+                        <label for="example-password-input" class="col-2 col-form-label d-none d-sm-block">Código</label>
+                        <div class="col-sm-10 col-12">
+                            <input class="form-control" type="text" placeholder="Escriba su código estudiantil" id="code">
                         </div>
                     </div>
 
                     <div class="form-group row">
                         <label for="example-password-input" class="col-2 col-form-label d-none d-sm-block">Password</label>
                         <div class="col-sm-10 col-12">
-                            <input class="form-control" type="password" placeholder="Escriba su Contraseña"
-                                id="example-password-input">
+                            <input class="form-control" type="password" placeholder="Escriba su Contraseña" id="example-password-input">
                         </div>
                     </div>
-
-                    <button type="submit" class="btn btn-primary">Acceder</button>
+                    <button type="submit" href="" class="btn btn-primary">Registrate</button>
                 </form>
             </div>
         </div>
-        <p class="mt-4 white">¿No tienes cuenta? <a class="btn btn-success" href="reg_user.html">Registrate</a></p>
-        <a class="btn btn-warning" href="#">
-            <p class="white">¿Tienes bici nueva?<i class="fas fa-bicycle"></i></p>
-        </a>
+        <!-- <p class="mt-4 white">¿No tienes cuenta? <a class="btn btn-success" href="#" >Registrate</a></p> -->
 </body>
 
 </html>
